@@ -8,4 +8,4 @@ export default (redirectURI, manifestURI, permissionsArray) => {
         	reject(err);
         }
     });
-}s
+};
