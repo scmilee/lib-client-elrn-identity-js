@@ -1,0 +1,23 @@
+{
+  "name": "lib-client-elrn-identity",
+  "version": "0.0.1",
+  "description": "blockstack wrapper",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "author": "Dylan Drudge",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "is-buffer": "^2.0.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "blockstack": "^17.2.0"
+  }
+}
