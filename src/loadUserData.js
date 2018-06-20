@@ -2,7 +2,7 @@ const blockstack = require('blockstack')
 
 export default () => {	
 	try{
-       return blockstack.loadUserData();
+       	return blockstack.loadUserData();
     } catch(err) {
     	console.log(err);
     }   

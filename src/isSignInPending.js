@@ -1,11 +1,9 @@
 const blockstack = require('blockstack')
 
 export default () => {
-    return new Promise((resolve, reject) => {
-        try{
-        	resolve(blockstack.isSignInPending());
-        } catch(err) {
-        	reject(err);
-        }
-    });
+    try{
+       return blockstack.isSignInPending();
+    } catch(err) {
+    	console.log(err);
+    }  
 }
