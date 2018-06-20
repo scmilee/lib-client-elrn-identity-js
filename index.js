@@ -8,7 +8,7 @@ import getFile from './src/getFile.js'
 import handlePendingSignIn from './src/handlePendingSignIn.js'
 
 
-export default class Knockstack {
+export default class ElrnID {
 	constructor(options){
 		let defaultOptions = {};
 		this.options = Object.call(defaultOptions, options);
@@ -37,6 +37,5 @@ export default class Knockstack {
 	getFile(filePath, options){
 		return getFile.call(this.options, filePath, options);
 	}
-
 
 };
